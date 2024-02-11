@@ -27,14 +27,14 @@ const Navbar = () => {
           <div className="hidden md:block">
             <ul className="flex space-x-8 ">
               <li>
-                <Link href="/about">
+                <Link href="/aboutus">
                   <div className="text-[#FF4802] hover:text-gray-300 py-2 font-semibold">
                     Home
                   </div>
                 </Link>
               </li>
               <li>
-                <Link href="/about">
+                <Link href="/aboutus">
                   <div className="text-[#52525B] hover:text-gray-300 py-2 font-semibold">
                     About Us
                   </div>
