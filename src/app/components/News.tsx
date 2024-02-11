@@ -8,46 +8,87 @@ import Image from "next/image";
 const News = () => {
   return (
     <div>
-      <div className="bg-orange-600">
+      <div className="bg-orange-600 pb-10">
         <h2 className="relative top- text-center top-4 text-white text-4xl font-semibold pt-12">
           News
         </h2>
         <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 grid-cols-1 xl:px-64 lg:px-44 md:px-32 sm:px-20 px-10 gap-5 mb-12 mt-16">
-          <div className="relative ">
-            <Link href="/">
-              <Image
-                src={Pic1}
-                alt="Logo"
-                className="md:h-[240px] md:w-[245px] sm:h-[240px] sm:w-[245px] h-[200px] w-[330px] rounded-lg "
-              />
-            </Link>
-          </div>
+
           <div className="relative">
             <Link href="/">
-              <Image
-                src={Pic3}
-                alt="Logo"
-                className="md:h-[240px] md:w-[245px] sm:h-[240px] sm:w-[245px] h-[200px] w-[330px] rounded-lg "
-              />
+              <div className="relative">
+                <Image
+                  src={Pic1}
+                  alt="Logo"
+                  className="md:h-[280px] md:w-[255px] sm:h-[240px] sm:w-full w-full h-[250px]  rounded-lg"
+                />
+                <div className="absolute bottom-0 left-0  bg-white rounded-b-lg md:w-[255px]  sm:w-full w-full  p-2">
+                  <h6 className="text-black text-sm font-normal flex justify-start items-center h-7 mb-3">
+                    End of Year Community & Volunteering
+                  </h6>
+                  <p className="text-[9px] font-normal">
+                    HBK takes pride in going beyond the work and supporting
+                    organizations that help all of our local communities and
+                    communities in need, worldwide.
+                  </p>
+                </div>
+              </div>
             </Link>
           </div>
+       
+
           <div className="relative">
             <Link href="/">
-              <Image
-                src={Pic3}
-                alt="Logo"
-                className="md:h-[240px] md:w-[245px] sm:h-[240px] sm:w-[245px] h-[200px] w-[330px] rounded-lg "
-              />
+              <div className="relative">
+                <Image
+                  src={Pic3}
+                  alt="Logo"
+                  className="md:h-[280px] md:w-[255px] sm:h-[240px] sm:w-full w-full h-[250px]  rounded-lg"
+                />
+                <div className="absolute bottom-0 left-0  bg-white rounded-b-lg md:w-[255px]  sm:w-full w-full  p-2">
+                  <h6 className="text-black text-sm font-normal flex justify-start items-center h-7 mb-3">
+                    End of Year Community & Volunteering
+                  </h6>
+                  <p className="text-[9px] font-normal">
+                    HBK takes pride in going beyond the work and supporting
+                    organizations that help all of our local communities and
+                    communities in need, worldwide.
+                  </p>
+                </div>
+              </div>
             </Link>
           </div>
+       
+
+          <div className="relative">
+            <Link href="/">
+              <div className="relative">
+                <Image
+                  src={Pic2}
+                  alt="Logo"
+                  className="md:h-[280px] md:w-[255px] sm:h-[240px] sm:w-full w-full h-[250px]  rounded-lg"
+                />
+                <div className="absolute bottom-0 left-0  bg-white rounded-b-lg md:w-[255px]  sm:w-full w-full  p-2">
+                  <h6 className="text-black text-sm font-normal flex justify-start items-center h-7 mb-3">
+                    End of Year Community & Volunteering
+                  </h6>
+                  <p className="text-[9px] font-normal">
+                    HBK takes pride in going beyond the work and supporting
+                    organizations that help all of our local communities and
+                    communities in need, worldwide.
+                  </p>
+                </div>
+              </div>
+            </Link>
+          </div>
+       
         </div>
         <div className="flex justify-center items-center">
-        <button className="py-2 px-10 text-[#FF4802] rounded-lg md:ml-12  font-semibold bg-[#FFFFFF]">
-          More News
-        </button>
+          <button className="py-2 px-10 text-[#FF4802] rounded-lg md:ml-12  font-semibold bg-[#FFFFFF]">
+            More News
+          </button>
+        </div>
       </div>
-      </div>
-     
     </div>
   );
 };
