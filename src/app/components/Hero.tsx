@@ -8,9 +8,9 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className=" py-12 px-4 md:px-0 relative ">
+    <div className=" md:py-12 pt-0 px-4 md:px-0 relative ">
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 grid-cols-1 items-center justify-center md:justify-between space-x-5 md:pl-28 pl-2">
-        <div className=" mb-6 md:mb-0 mt-7">
+        <div className="  mt-7">
           <h1 className="text-4xl md:text-5xl font-bold  md:text-left mb-4">
             Who We Are
           </h1>
