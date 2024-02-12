@@ -3,14 +3,14 @@ import React from "react";
 import Link from "next/link";
 import Career from "../../../public/career.jpg";
 import Image from "next/image";
-
+import rectan from '../../../public/rectan.jpg'
 const Careers = () => {
   return (
     <div className="my-16 relative mb-36">
       <div className=" flex justify-center items-center absolute inset-0 bg-orange-600 bg-opacity-75 lg:h-[320px] md:h[340px] sm:h-[400px] h-[450px]  md:w-[860px] lg:mx-60 md:mx-20 sm:mx-12 mx-5 rounded-xl">
         <Link href="/">
           <Image
-            src={Career}
+            src={rectan}
             alt="Logo"
             className=" md:w-[860px]  opacity-35  rounded-xl absolute inset-0 md:block lg:h-[320px] md:h[340px] sm:h-[400px] h-[450px] "
           />

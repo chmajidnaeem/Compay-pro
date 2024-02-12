@@ -1,7 +1,7 @@
 import React from "react";
-import Pic1 from "../../../public/pic1.jpeg";
-import Pic2 from "../../../public/pic2.jpeg";
-import Pic3 from "../../../public/pic3.jpeg";
+import Art from '../../../public/art.jpg'
+import Aviation from '../../../public/aviation.png'
+import buildings from '../../../public/buildings.png'
 import Pic4 from "../../../public/pic4.jpeg";
 import Pic5 from "../../../public/p5.jpeg";
 import Pic6 from "../../../public/p6.jpeg";
@@ -18,7 +18,7 @@ const OurServices = () => {
           <Link href="/">
             <div className="relative">
               <Image
-                src={Pic1}
+                src={Art}
                 alt="Logo"
                 className="md:h-[240px] md:w-[245px] sm:h-[240px] sm:w-[245px] h-[200px] w-[330px] rounded-lg"
               />
@@ -35,7 +35,7 @@ const OurServices = () => {
           <Link href="/">
             <div className="relative">
               <Image
-                src={Pic2}
+                src={Aviation}
                 alt="Logo"
                 className="md:h-[240px] md:w-[245px] sm:h-[240px] sm:w-[245px] h-[200px] w-[330px] rounded-lg"
               />
@@ -51,13 +51,13 @@ const OurServices = () => {
           <Link href="/">
             <div className="relative">
               <Image
-                src={Pic3}
+                src={buildings}
                 alt="Logo"
                 className="md:h-[240px] md:w-[245px] sm:h-[240px] sm:w-[245px] h-[200px] w-[330px] rounded-lg"
               />
               <div className="absolute bottom-0 left-0  bg-black opacity-70  rounded-b-lg md:w-[245px]  sm:w-[245px] w-[330px] ">
                 <h6 className="text-white text-medium font-medium flex justify-center items-center h-16">
-                  Chemicala and Oils
+                  Buildings
                 </h6>
               </div>
             </div>
@@ -131,7 +131,7 @@ const OurServices = () => {
           <Link href="/">
             <div className="relative">
               <Image
-                src={Pic3}
+                src={buildings}
                 alt="Logo"
                 className="md:h-[240px] md:w-[245px] sm:h-[240px] sm:w-[245px] h-[200px] w-[330px] rounded-lg"
               />

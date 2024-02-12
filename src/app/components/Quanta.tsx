@@ -1,18 +1,19 @@
 import React from "react";
 import QuantaLogo from "../Svgs/Quanta";
-
+import Image from "next/image";
+import QuantanewLogo from '../../../public/quanta.png'
 const Quanta = () => {
   return (
     <div className="max-w-7xl   xl:px-52 lg:px-24 md:px-8 sm:4 px-3 mt-44 ">
-      <div className=" bg-[#D5E9FF] py-8 rounded-2xl">
+      <div className=" bg-[#D5E9FF]  py-10 rounded-2xl">
         <p className=" text-center text-[#212529]">A division of</p>
         <div className="flex justify-center items-center mt-5">
-          <QuantaLogo />
+         <Image width='250' height='67.25' src={QuantanewLogo} alt=""/>
         </div>
         <h2 className="text-center mt-7 font-bold text-lg text-[#212529]">
           REPEATABLE. SUSTAINABLE. BETTER.
         </h2>
-        <p className=" text-center mt-5 md:px-24 px-5 text-[#212529]">
+        <p className=" justify-text text-center mt-5 md:px-24 px-5 text-[#212529]">
           Quanta Services is the leading specialty contractor with the largest
           skilled labor force in North America – providing fully integrated
           infrastructure solutions for the utility, energy and communications

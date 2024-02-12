@@ -4,7 +4,9 @@ import Pic2 from "../../../public/pic2.jpeg";
 import Pic3 from "../../../public/pic3.jpeg";
 import Link from "next/link";
 import Image from "next/image";
-
+import rec from '../../../public/rect.jpg'
+import rec1 from '../../../public/rect1.jpg'
+import rec2 from '../../../public/rect2.jpg'
 const AboutHbk = () => {
   return (
     <div>
@@ -16,7 +18,7 @@ const AboutHbk = () => {
           <Link href="/">
             <div className="relative">
               <Image
-                src={Pic3}
+                src={rec}
                 alt="Logo"
                 className="md:h-[190px] md:w-[235px] sm:h-[190px] sm:w-[235px] h-[200px] w-[330px] rounded-lg "
               />
@@ -31,7 +33,7 @@ const AboutHbk = () => {
         <Link href="/">
             <div className="relative">
               <Image
-                src={Pic3}
+                src={rec1}
                 alt="Logo"
                 className="md:h-[190px] md:w-[235px] sm:h-[190px] sm:w-[235px] h-[200px] w-[330px] rounded-lg "
               />
@@ -46,7 +48,7 @@ const AboutHbk = () => {
         <Link href="/">
             <div className="relative">
               <Image
-                src={Pic1}
+                src={rec2}
                 alt="Logo"
                 className="md:h-[190px] md:w-[235px] sm:h-[190px] sm:w-[235px] h-[200px] w-[330px] rounded-lg "
               />
