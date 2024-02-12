@@ -10,7 +10,7 @@ import rec2 from '../../../public/rect2.jpg'
 const AboutHbk = () => {
   return (
     <div>
-      <h2 className="flex justify-center items-center text-[#000000] md:text-4xl text-2xl font-medium py-8">
+      <h2 className="font-sans flex justify-center items-center text-[#000000] md:text-4xl text-2xl font-medium py-8">
         About HBK Engineering
       </h2>
       <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 grid-cols-1 xl:px-64 lg:px-44 md:px-32 sm:px-20 px-10 gap-5 mb-24">
