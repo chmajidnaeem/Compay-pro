@@ -13,16 +13,16 @@ import Footer from "./components/Footer";
 export default function Home() {
   return (
     <div>
-      <Navbar />
-      <Hero />
-      <Quanta />
-      <QuantaServices />
-      <AboutHbk />
-      <OurServices />
-      <Careers />
-      <JoinOurTeam />
-      <News />
-      <Footer />
+        <Navbar />
+        <Hero />
+        <Quanta />
+        <QuantaServices />
+        <AboutHbk />
+        <OurServices />
+        <Careers />
+        <JoinOurTeam />
+        <News />
+        <Footer />
     </div>
   );
 }

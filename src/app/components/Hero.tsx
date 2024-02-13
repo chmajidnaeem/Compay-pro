@@ -5,21 +5,25 @@ import Orange from "../Svgs/orange";
 import Blue from "../Svgs/Blue";
 import Picture from "../Svgs/Image";
 import Image from "next/image";
+import Wrapper from "../shared/Wrapper";
 
 const Hero = () => {
   return (
+    <Wrapper>
+
+ 
     <div className=" md:py-12 pt-0 px-4 md:px-0 relative ">
-      <div className="max-w-7xl mx-auto grid md:grid-cols-2 grid-cols-1 items-center justify-center md:justify-between space-x-5 md:pl-28 pl-2">
+      <div className=" md:px-36  px-7 grid md:grid-cols-2 grid-cols-1 items-center justify-center md:justify-between space-x-5 ">
         <div className="  mt-7">
-          <h1 className="text-4xl md:text-5xl font-bold  md:text-left mb-4">
+          <h1 className="text-4xl md:text-5xl font-bold  md:text-left mb-4 font-sans">
             Who We Are
           </h1>
-          <p className="text-lg text-[#52525B]  md:text-left mb-8 md:mr-12 mr-0">
+          <p className="text-lg text-[#52525B]  md:text-left mb-8 md:mr-12 mr-0 font-sans">
             HBK Engineering, LLC is a fully licensed, professional engineering
             design firm headquartered in downtown Chicago, with a dedicated team
             of over 600 staff.
           </p>
-          <button className="py-2 px-5 bg-[#FF4802] rounded-lg  font-semibold text-[#FFFFFF]">
+          <button className="py-2 px-5 bg-[#FF4802] rounded-lg  font-semibold text-[#FFFFFF] font-sans">
             Contact Now
           </button>
         </div>
@@ -31,7 +35,7 @@ const Hero = () => {
             <div style={{ position: "absolute", top: 24, left: 0 }}>
               <Circle />
             </div>
-            <div style={{ position: "absolute", top: 230, right: 210 }}>
+            <div style={{ position: "absolute", top: 230, right: 170 }}>
               <Blue />
             </div>
             <div
@@ -48,6 +52,7 @@ const Hero = () => {
         </div>
       </div>
     </div>
+    </Wrapper>
   );
 };
 

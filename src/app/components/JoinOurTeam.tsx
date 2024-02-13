@@ -1,8 +1,11 @@
 import React from 'react'
+import Wrapper from "../shared/Wrapper";
 
 const JoinOurTeam = () => {
   return (
-    <div>JoinOurTeam</div>
+    <Wrapper>
+      <div>JoinOurTeam</div>
+    </Wrapper>
   )
 }
 

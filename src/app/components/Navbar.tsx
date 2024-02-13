@@ -13,7 +13,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="bg-[#FFE4D9] text-[#52525B] p-1 md:text-base text-sm flex justify-center items-center  text-center">
+      <div className="bg-[#FFE4D9] text-[#52525B] p-1 md:text-base text-sm flex justify-center items-center  text-center font-sans">
         Unleash the Power of Integration: Discover Our API Today! 🚀
       </div>
 
@@ -28,41 +28,41 @@ const Navbar = () => {
             <ul className="flex space-x-8 ">
               <li>
                 <Link href="/">
-                  <div className="text-[#FF4802] hover:text-gray-300 py-2 font-semibold">
+                  <div className="text-[#FF4802] hover:text-gray-300 py-2 font-semibold font-sans">
                     Home
                   </div>
                 </Link>
               </li>
               <li>
                 <Link href="/AboutUs">
-                  <div className="text-[#52525B] hover:text-gray-300 py-2 font-semibold">
+                  <div className="text-[#52525B] hover:text-gray-300 py-2 font-semibold font-sans">
                     About Us
                   </div>
                 </Link>
               </li>
               <li>
                 <Link href="/services">
-                  <div className="text-[#52525B] hover:text-gray-300 py-2 font-semibold ">
+                  <div className="text-[#52525B] hover:text-gray-300 py-2 font-semibold  font-sans">
                     Our Services
                   </div>
                 </Link>
               </li>
               <li>
                 <Link href="/ContactUs">
-                  <div className="text-[#52525B] hover:text-gray-300 py-2 font-semibold">
+                  <div className="text-[#52525B] hover:text-gray-300 py-2 font-semibold font-sans">
                     Contact
                   </div>
                 </Link>
               </li>
               <li>
                 <Link href="/contact">
-                  <div className="text-[#52525B] hover:text-gray-300 py-2 font-semibold">
+                  <div className="text-[#52525B] hover:text-gray-300 py-2 font-semibold font-sans">
                     Blog
                   </div>
                 </Link>
               </li>
               <div>
-                <button className="py-2 px-10 bg-[#FF4802] rounded-lg md:ml-12  font-semibold text-[#FFFFFF]">
+                <button className="py-2 px-10 bg-[#FF4802] rounded-lg md:ml-12  font-semibold text-[#FFFFFF] font-sans">
                   Join
                 </button>
               </div>
@@ -105,22 +105,36 @@ const Navbar = () => {
             <ul className="flex flex-col space-y-4 bg-[#FFE4D9] py-12 px-8">
               <li>
                 <Link href="/about">
-                  <div className="text-[#52525B] hover:text-gray-300">
-                    About
+                  <div className="text-[#52525B] hover:text-gray-300 font-sans">
+                    Home
                   </div>
                 </Link>
               </li>
               <li>
                 <Link href="/services">
-                  <div className="text-[#52525B] hover:text-gray-300">
-                    Services
+                  <div className="text-[#52525B] hover:text-gray-300 font-sans">
+                    About Us
                   </div>
                 </Link>
               </li>
               <li>
                 <Link href="/contact">
-                  <div className="text-[#52525B] hover:text-gray-300">
+                  <div className="text-[#52525B] hover:text-gray-300 font-sans">
+                    Our Services
+                  </div>
+                </Link>
+              </li>
+              <li>
+                <Link href="/contact">
+                  <div className="text-[#52525B] hover:text-gray-300 font-sans">
                     Contact
+                  </div>
+                </Link>
+              </li>
+              <li>
+                <Link href="/contact">
+                  <div className="text-[#52525B] hover:text-gray-300 font-sans">
+                    Blog
                   </div>
                 </Link>
               </li>
