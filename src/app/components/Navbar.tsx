@@ -41,7 +41,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/services">
+                <Link href="/OurServices">
                   <div className="text-[#52525B] hover:text-gray-300 py-2 font-semibold  font-sans">
                     Our Services
                   </div>
@@ -55,7 +55,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/contact">
+                <Link href="/Blog">
                   <div className="text-[#52525B] hover:text-gray-300 py-2 font-semibold font-sans">
                     Blog
                   </div>
