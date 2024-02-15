@@ -2,10 +2,12 @@ import React from "react";
 import Art from '../../../public/art.jpg'
 import Aviation from '../../../public/aviation.png'
 import buildings from '../../../public/buildings.png'
-import Pic4 from "../../../public/pic4.jpeg";
-import Pic5 from "../../../public/p5.jpeg";
-import Pic6 from "../../../public/p6.jpeg";
-import Pic7 from "../../../public/p7.jpeg";
+import Newimage from '../../../public/imagen.png'
+import Buimage from '../../../public/imagebu.png'
+import imagejs from '../../../public/imagejk.png'
+import imagemachine from '../../../public/imagemachine.png'
+import imagebuild from '../../../public/imagebuild.png'
+import imagenwww from '../../../public/imagenwww.png'
 import Link from "next/link";
 import Image from "next/image";
 import Wrapper from "../shared/Wrapper";
@@ -69,7 +71,7 @@ const OurServices = () => {
           <Link href="/">
             <div className="relative">
               <Image
-                src={Pic4}
+                src={Newimage}
                 alt="Logo"
                 className="md:h-[240px] md:w-[285px] sm:h-[240px] sm:w-[245px] h-[200px] w-[330px] rounded-lg"
               />
@@ -85,7 +87,7 @@ const OurServices = () => {
           <Link href="/">
             <div className="relative">
               <Image
-                src={Pic5}
+                src={Buimage}
                 alt="Logo"
                 className="md:h-[240px] md:w-[285px] sm:h-[240px] sm:w-[245px] h-[200px] w-[330px] rounded-lg"
               />
@@ -101,7 +103,7 @@ const OurServices = () => {
           <Link href="/">
             <div className="relative">
               <Image
-                src={Pic6}
+                src={imagejs}
                 alt="Logo"
                 className="md:h-[240px] md:w-[285px] sm:h-[240px] sm:w-[245px] h-[200px] w-[330px] rounded-lg"
               />
@@ -117,7 +119,7 @@ const OurServices = () => {
           <Link href="/">
             <div className="relative">
               <Image
-                src={Pic7}
+                src={imagemachine}
                 alt="Logo"
                 className="md:h-[240px] md:w-[285px] sm:h-[240px] sm:w-[245px] h-[200px] w-[330px] rounded-lg"
               />
@@ -133,7 +135,7 @@ const OurServices = () => {
           <Link href="/">
             <div className="relative">
               <Image
-                src={buildings}
+                src={imagebuild}
                 alt="Logo"
                 className="md:h-[240px] md:w-[285px] sm:h-[240px] sm:w-[245px] h-[200px] w-[330px] rounded-lg"
               />
@@ -149,7 +151,7 @@ const OurServices = () => {
           <Link href="/">
             <div className="relative">
               <Image
-                src={Pic5}
+                src={imagenwww}
                 alt="Logo"
                 className="md:h-[240px] md:w-[285px] sm:h-[240px] sm:w-[245px] h-[200px] w-[330px] rounded-lg"
               />
