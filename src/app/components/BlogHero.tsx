@@ -4,7 +4,7 @@ const BlogHero = () => {
   return (
     <div>
        <div>
-            <div className='flex justify-center gap-40 lg:h-[600px]  lg:p-10 p-5 '>
+            <div className='flex lg:justify-center justify-start gap-40 lg:h-[600px] lg:px-40 md:px-32 sm:px-16 px-8 '>
                 <div className='flex flex-col justify-center gap-5 w-[500px]'>
                     <h1 className='text-4xl font-bold'>Blog</h1>
                     <p className='text-sm w-full md:text-lg'>AAITECH is a vast and diversified service provider in the fields of Logistics, Design Engineering, Consultancy, and supply of different materials to industrial plants. We are well known for constantly encouraging innovation and modern technologies and our products and services cater for sectors as diverse as Oil & Gas, Power, Petrochemicals, Mechanical, Non-Metallic, and Materials Handling. Our services and outstanding logistical support to our clients has given us the competitive edge over other competitors around the globe</p>
