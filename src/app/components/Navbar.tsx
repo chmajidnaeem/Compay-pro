@@ -104,35 +104,35 @@ const Navbar = () => {
           <div className="md:hidden my-3">
             <ul className="flex flex-col space-y-4 bg-[#FFE4D9] py-12 px-8">
               <li>
-                <Link href="/about">
+                <Link href="/">
                   <div className="text-[#52525B] hover:text-gray-300 font-sans">
                     Home
                   </div>
                 </Link>
               </li>
               <li>
-                <Link href="/services">
+                <Link href="/AboutUs">
                   <div className="text-[#52525B] hover:text-gray-300 font-sans">
                     About Us
                   </div>
                 </Link>
               </li>
               <li>
-                <Link href="/contact">
+                <Link href="/OurServices">
                   <div className="text-[#52525B] hover:text-gray-300 font-sans">
                     Our Services
                   </div>
                 </Link>
               </li>
               <li>
-                <Link href="/contact">
+                <Link href="/ContactUs">
                   <div className="text-[#52525B] hover:text-gray-300 font-sans">
                     Contact
                   </div>
                 </Link>
               </li>
               <li>
-                <Link href="/contact">
+                <Link href="/Blog">
                   <div className="text-[#52525B] hover:text-gray-300 font-sans">
                     Blog
                   </div>

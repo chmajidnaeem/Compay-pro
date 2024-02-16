@@ -9,9 +9,7 @@ const Contact =() => {
     <div>
      
       <ContactPage />
-      <Hideencom />
-      <Footer  />
-      <Hideencom />
+      {/* <Footer  /> */}
 
     </div>
   )
