@@ -3,14 +3,16 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import AboutHero from '../components/AboutHero'
 import AboutPara from '../components/AboutPara'
+import News from '../components/News'
 
 const page = () => {
   return (
     <div>
-      <Navbar />
+     
       <AboutHero />
       <AboutPara/>
-      <Footer />
+      <News />
+      
     </div>
   )
 }

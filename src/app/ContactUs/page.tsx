@@ -7,10 +7,12 @@ import Hideencom from '../components/Hideencom'
 const Contact =() => {
   return (
     <div>
-      <Navbar />
+     
       <ContactPage />
-      {/* <Hideencom /> */}
+      <Hideencom />
       <Footer  />
+      <Hideencom />
+
     </div>
   )
 }

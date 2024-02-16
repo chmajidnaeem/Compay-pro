@@ -13,7 +13,7 @@ import Footer from "./components/Footer";
 export default function Home() {
   return (
     <div>
-        <Navbar />
+        
         <Hero />
         <Quanta />
         <QuantaServices />
@@ -22,7 +22,7 @@ export default function Home() {
         <Careers />
         <JoinOurTeam />
         <News />
-        <Footer />
+       
     </div>
   );
 }

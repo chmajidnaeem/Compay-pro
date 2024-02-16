@@ -1,7 +1,7 @@
 import React from "react";
-import Pic1 from "../../../public/pic1.jpeg";
-import Pic2 from "../../../public/pic2.jpeg";
-import Pic3 from "../../../public/pic3.jpeg";
+import Pic1 from "../../../public/pic1.png";
+import Main from "../../../public/Main.png";
+import imgecard3 from "../../../public/imgecard3.png";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -17,7 +17,7 @@ const News = () => {
             <Link href="/">
               <div className="relative">
                 <Image
-                  src={Pic3}
+                  src={Pic1}
                   alt="Logo"
                   className="md:h-[280px] md:w-auto sm:w-full w-full h-[250px] rounded-lg"
                 />
@@ -39,7 +39,7 @@ const News = () => {
             <Link href="/">
               <div className="relative">
                 <Image
-                  src={Pic3}
+                  src={Main}
                   alt="Logo"
                   className="md:h-[280px] md:w-auto sm:w-full w-full h-[250px] rounded-lg"
                 />
@@ -61,7 +61,7 @@ const News = () => {
             <Link href="/">
               <div className="relative">
                 <Image
-                  src={Pic3}
+                  src={imgecard3}
                   alt="Logo"
                   className="md:h-[280px] md:w-auto sm:w-full w-full h-[250px] rounded-lg"
                 />

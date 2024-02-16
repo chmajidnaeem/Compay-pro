@@ -11,12 +11,12 @@ import CardsBlog from '../components/CardsBlog'
 const page = () => {
   return (
     <div>
-      <Navbar />
+      
       <BlogHero/>
       <Blogpa/>
       <BlogPhoto />
       <CardsBlog />
-      <Footer />
+     
     </div>
   )
 }
