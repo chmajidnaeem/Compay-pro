@@ -1,4 +1,7 @@
 import React from "react";
+import Link from "next/link";
+import RecBlog1 from "../../../public/recblog1.png";
+import Image from "next/image";
 
 const CardsBlog = () => {
   return (
@@ -7,7 +10,11 @@ const CardsBlog = () => {
         <div className="max-w-screen-lg mx-auto p-5 sm:p-10 md:p-16 ">
           <div className="grid grid-cols-1 md:grid-cols-4 sm:grid-cols-2 gap-10">
             <div className=" bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col justify-between leading-normal">
-              <img src="recblog1.png" className="w-full mb-3" />
+              <div>
+                <Link href="/">
+                  <Image src={RecBlog1} alt="Logo" className="w-full mb-3" />
+                </Link>
+              </div>
               <div className="justify-start flex rounded-full   p-3">
                 <button className=" flex-1 font-sans md:text-md bg-gray-300 px-3 py-3 rounded-full ">
                   Announcement
@@ -30,8 +37,11 @@ const CardsBlog = () => {
               </div>
             </div>
             <div className="bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col justify-between leading-normal">
-              <img src="recblog2.png" className="w-full mb-3" />
-
+              <div>
+                <Link href="/">
+                  <Image src={RecBlog1} alt="Logo" className="w-full mb-3" />
+                </Link>
+              </div>
               <div className="justify-start flex rounded-full   p-3">
                 <button className=" flex-1 font-sans md:text-md bg-gray-300 px-3 py-3 rounded-full ">
                   Announcement
@@ -54,7 +64,11 @@ const CardsBlog = () => {
               </div>
             </div>
             <div className=" bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col justify-between leading-normal">
-              <img src="recblog1.png" className="w-full mb-3" />
+              <div>
+                <Link href="/">
+                  <Image src={RecBlog1} alt="Logo" className="w-full mb-3" />
+                </Link>
+              </div>
               <div className="justify-start flex rounded-full   p-3">
                 <button className=" flex-1 font-sans md:text-md bg-gray-300 px-3 py-3 rounded-full ">
                   Announcement
@@ -77,7 +91,11 @@ const CardsBlog = () => {
               </div>
             </div>
             <div className=" bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col justify-between leading-normal">
-              <img src="recblog1.png" className="w-full mb-3" />
+              <div>
+                <Link href="/">
+                  <Image src={RecBlog1} alt="Logo" className="w-full mb-3" />
+                </Link>
+              </div>
               <div className="justify-start flex rounded-full   p-3">
                 <button className=" flex-1 font-sans md:text-md bg-gray-300 px-3 py-3 rounded-full ">
                   Announcement
@@ -100,7 +118,11 @@ const CardsBlog = () => {
               </div>
             </div>
             <div className=" bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col justify-between leading-normal">
-              <img src="recblog1.png" className="w-full mb-3" />
+              <div>
+                <Link href="/">
+                  <Image src={RecBlog1} alt="Logo" className="w-full mb-3" />
+                </Link>
+              </div>
               <div className="justify-start flex rounded-full   p-3">
                 <button className=" flex-1 font-sans md:text-md bg-gray-300 px-3 py-3 rounded-full ">
                   Announcement
@@ -123,7 +145,11 @@ const CardsBlog = () => {
               </div>
             </div>
             <div className=" bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col justify-between leading-normal">
-              <img src="recblog1.png" className="w-full mb-3" />
+              <div>
+                <Link href="/">
+                  <Image src={RecBlog1} alt="Logo" className="w-full mb-3" />
+                </Link>
+              </div>
               <div className="justify-start flex rounded-full   p-3">
                 <button className=" flex-1 font-sans md:text-md bg-gray-300 px-3 py-3 rounded-full ">
                   Announcement
@@ -146,7 +172,11 @@ const CardsBlog = () => {
               </div>
             </div>
             <div className=" bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col justify-between leading-normal">
-              <img src="recblog1.png" className="w-full mb-3" />
+              <div>
+                <Link href="/">
+                  <Image src={RecBlog1} alt="Logo" className="w-full mb-3" />
+                </Link>
+              </div>
               <div className="justify-start flex rounded-full   p-3">
                 <button className=" flex-1 font-sans md:text-md bg-gray-300 px-3 py-3 rounded-full ">
                   Announcement
@@ -169,7 +199,11 @@ const CardsBlog = () => {
               </div>
             </div>
             <div className=" bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col justify-between leading-normal">
-              <img src="recblog1.png" className="w-full mb-3" />
+              <div>
+                <Link href="/">
+                  <Image src={RecBlog1} alt="Logo" className="w-full mb-3" />
+                </Link>
+              </div>
               <div className="justify-start flex rounded-full   p-3">
                 <button className=" flex-1 font-sans md:text-md bg-gray-300 px-3 py-3 rounded-full ">
                   Announcement
@@ -192,7 +226,11 @@ const CardsBlog = () => {
               </div>
             </div>
             <div className=" bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col justify-between leading-normal">
-              <img src="recblog1.png" className="w-full mb-3" />
+              <div>
+                <Link href="/">
+                  <Image src={RecBlog1} alt="Logo" className="w-full mb-3" />
+                </Link>
+              </div>
               <div className="justify-start flex rounded-full   p-3">
                 <button className=" flex-1 font-sans md:text-md bg-gray-300 px-3 py-3 rounded-full ">
                   Announcement
@@ -215,7 +253,11 @@ const CardsBlog = () => {
               </div>
             </div>
             <div className=" bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col justify-between leading-normal">
-              <img src="recblog1.png" className="w-full mb-3" />
+              <div>
+                <Link href="/">
+                  <Image src={RecBlog1} alt="Logo" className="w-full mb-3" />
+                </Link>
+              </div>
               <div className="justify-start flex rounded-full   p-3">
                 <button className=" flex-1 font-sans md:text-md bg-gray-300 px-3 py-3 rounded-full ">
                   Announcement
@@ -238,7 +280,11 @@ const CardsBlog = () => {
               </div>
             </div>
             <div className=" bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col justify-between leading-normal">
-              <img src="recblog1.png" className="w-full mb-3" />
+              <div>
+                <Link href="/">
+                  <Image src={RecBlog1} alt="Logo" className="w-full mb-3" />
+                </Link>
+              </div>
               <div className="justify-start flex rounded-full   p-3">
                 <button className=" flex-1 font-sans md:text-md bg-gray-300 px-3 py-3 rounded-full ">
                   Announcement
@@ -261,7 +307,11 @@ const CardsBlog = () => {
               </div>
             </div>
             <div className=" bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col justify-between leading-normal">
-              <img src="recblog1.png" className="w-full mb-3" />
+              <div>
+                <Link href="/">
+                  <Image src={RecBlog1} alt="Logo" className="w-full mb-3" />
+                </Link>
+              </div>
               <div className="justify-start flex rounded-full   p-3">
                 <button className=" flex-1 font-sans md:text-md bg-gray-300 px-3 py-3 rounded-full ">
                   Announcement

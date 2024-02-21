@@ -1,10 +1,8 @@
 import React from "react";
-// import video from '../../../public/'
 import Wrapper from "../shared/Wrapper";
 
 const QuantaServices = () => {
   return (
-    // <Wrapper>
       <>
         <div className="bg-[#FFE4D9] h-[373px] w-full my-24">
           <h2 className="flex justify-center items-center text-[#233253] md:text-4xl text-2xl font-medium py-8 font-sans">
@@ -51,7 +49,6 @@ const QuantaServices = () => {
           <div className="h-px bg-[#CCCCCC] w-full mb-12 "></div>
         </div>
       </>
-    // </Wrapper>
   );
 };
 

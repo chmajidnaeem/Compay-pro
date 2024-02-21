@@ -1,13 +1,16 @@
 "use client";
 import React from "react";
+import Link from "next/link";
+import Image from "next/image";
+import Vector from "../../../public/Vector.png";
+import Recctangle from "../../../public/Rectangle.png";
 
 export const ContactUs = () => {
   return (
-
     <section className="bg-white ">
       <div className="container lg:px-40 md:px-32 sm:px-16 px-8 py-12 mx-auto">
         <div className="lg:flex  lg:-mx-6 lg:gap-10 md:h-screen sm:h-[900px] h-[1280px]">
-            {/* left side  */}
+          {/* left side  */}
           <div className="lg:w-1/2 lg:mx-4 text-sm md:text-lg lg:text-2xl  mb-10">
             <h1 className="text-4xl md:text-5xl font-bold  md:text-start mb-4">
               Contact Us
@@ -93,29 +96,34 @@ export const ContactUs = () => {
               </p>
             </div>
           </div>
-            {/* rigth side */}
+          {/* rigth side */}
           <div className=" lg:w-1/2 w-auto lg:mx-6 relative">
             <div className="w-full px-8  mx-auto overflow-hidden bg-gray-100 rounded-lg shadow-2xl dark:bg-gray-900 lg:max-w-xl shadow-gray-300/50  ">
-              <img
-                src="Vector.png "
-                alt=""
-                className="absolute -right-14 -top-5 sm:hidden md:block hidden"
-              />
-              <img
-                src="Rectangle.png "
-                alt=""
-                className="absolute left-5 sm:hidden md:block hidden"
-              />
+              <div>
+                <Link href="/">
+                  <Image
+                    src={Vector}
+                    alt="vector"
+                    className="absolute -right-14 -top-5 sm:hidden md:block hidden"
+                  />
+                </Link>
+              </div>
+              <div>
+                <Link href="/">
+                  <Image
+                    src={Recctangle}
+                    alt="ractangle"
+                    className="absolute left-5 sm:hidden md:block hidden"
+                  />
+                </Link>
+              </div>
 
               <form className=" absolute bg-white rounded-3xl px-7 py-10 top-20 shadow-xl">
                 {" "}
                 <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
                   {" "}
                   <div>
-                    <label
-                      className=" font-bold"
-                      htmlFor="username"
-                    >
+                    <label className=" font-bold" htmlFor="username">
                       FullName
                     </label>
                     <input
@@ -126,10 +134,7 @@ export const ContactUs = () => {
                     />
                   </div>
                   <div>
-                    <label
-                        className=" font-bold"
-                      htmlFor="emailAddress"
-                    >
+                    <label className=" font-bold" htmlFor="emailAddress">
                       CompanyName
                     </label>
                     <input
@@ -140,10 +145,7 @@ export const ContactUs = () => {
                     />
                   </div>
                   <div>
-                    <label
-                        className=" font-bold"
-                      htmlFor="username"
-                    >
+                    <label className=" font-bold" htmlFor="username">
                       Work Email
                     </label>
                     <input
@@ -154,10 +156,7 @@ export const ContactUs = () => {
                     />
                   </div>
                   <div>
-                    <label
-                         className=" font-bold"
-                      htmlFor="emailAddress"
-                    >
+                    <label className=" font-bold" htmlFor="emailAddress">
                       How did you know about us
                     </label>
                     <input
@@ -168,10 +167,7 @@ export const ContactUs = () => {
                     />
                   </div>
                   <div>
-                    <label
-                       className=" font-bold"
-                      htmlFor="password"
-                    >
+                    <label className=" font-bold" htmlFor="password">
                       PhoneNo/Whatsapp
                     </label>
                     <input
@@ -183,7 +179,7 @@ export const ContactUs = () => {
                   </div>
                   <div>
                     <label
-                        className=" font-bold"
+                      className=" font-bold"
                       htmlFor="passwordConfirmation"
                     >
                       Job Title
@@ -197,10 +193,7 @@ export const ContactUs = () => {
                   </div>
                 </div>
                 <div className="mt-5">
-                  <label
-                    className=" font-bold "
-                    htmlFor="username"
-                  >
+                  <label className=" font-bold " htmlFor="username">
                     Requirement
                   </label>
                   <input

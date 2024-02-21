@@ -1,5 +1,4 @@
 import React from "react";
-// import Career from '../Svgs/Careers'
 import Link from "next/link";
 import Career from "../../../public/career.jpg";
 import Image from "next/image";

@@ -13,7 +13,8 @@
     "next-share": "^0.27.0",
     "react": "^18",
     "react-dom": "^18",
-    "react-social-icons": "^6.10.0"
+    "react-social-icons": "^6.10.0",
+    "sharp": "^0.33.2"
   },
   "devDependencies": {
     "@types/node": "^20",
