@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
-import logo from "../../../public/logo1.jpg";
+import logo from "../../../public/logo.svg";
 import Image from "next/image";
 
 const Navbar = () => {
@@ -34,28 +34,28 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/AboutUs">
+                <Link href="/about-us">
                   <div className="text-[#52525B] hover:text-gray-300 py-2 font-semibold font-sans">
                     About Us
                   </div>
                 </Link>
               </li>
               <li>
-                <Link href="/OurServices">
+                <Link href="/our-services">
                   <div className="text-[#52525B] hover:text-gray-300 py-2 font-semibold  font-sans">
                     Our Services
                   </div>
                 </Link>
               </li>
               <li>
-                <Link href="/ContactUs">
+                <Link href="/contact-us">
                   <div className="text-[#52525B] hover:text-gray-300 py-2 font-semibold font-sans">
                     Contact
                   </div>
                 </Link>
               </li>
               <li>
-                <Link href="/Blog">
+                <Link href="/blog">
                   <div className="text-[#52525B] hover:text-gray-300 py-2 font-semibold font-sans">
                     Blog
                   </div>
