@@ -8,7 +8,7 @@ import AboutHbk from "./components/AboutHbk";
 import Careers from "./components/Careers";
 import News from "./components/News";
 import JoinOurTeam from "./components/JoinOurTeam";
-import Footer from "./components/Footer";
+// import Footer from "./components/Footer";
 
 export default function Home() {
   return (
