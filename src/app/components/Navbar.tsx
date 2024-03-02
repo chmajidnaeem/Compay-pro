@@ -36,7 +36,7 @@ const Navbar = ({ currentPage }: any) => {
                 {/*    Home strt */}
                 <Menu as="div" className="relative inline-block text-left">
                   <div>
-                    <Menu.Button className="inline-flex w-full justify-center gap-x-1.5  bg-white  text-sm font-semibold text-black ">
+                    <Menu.Button className="inline-flex w-full justify-center  bg-white  text-sm font-semibold text-black ">
                       <Link href={"/"} >
 
                         Home
@@ -125,7 +125,7 @@ const Navbar = ({ currentPage }: any) => {
                 {/*   About Us strt */}
                 <Menu as="div" className="relative inline-block text-left">
                   <div>
-                    <Menu.Button className="inline-flex w-full justify-center gap-x-1.5 bg-white text-sm font-semibold text-black ">
+                    <Menu.Button className="inline-flex w-full justify-center  bg-white text-sm font-semibold text-black ">
                       <Link href="/about-us" >
 
                         AboutUs   </Link>                <ChevronDownIcon className="-mr-1 h-5 w-5 text-gray-400" aria-hidden="true" />
@@ -213,7 +213,7 @@ const Navbar = ({ currentPage }: any) => {
                 {/*   Our Services */}
                 <Menu as="div" className="relative inline-block text-left">
                   <div>
-                    <Menu.Button className="inline-flex w-full justify-center gap-x-1.5    text-sm font-semibold text-black ">
+                    <Menu.Button className="inline-flex w-full justify-center   text-sm font-semibold text-black ">
                       <Link href="/our-services">
 
                         OurServices </Link>
@@ -303,7 +303,7 @@ const Navbar = ({ currentPage }: any) => {
                 {/*    Contact */}
                 <Menu as="div" className="relative inline-block text-left">
                   <div>
-                    <Menu.Button className="inline-flex w-full justify-center gap-x-1.5  bg-white text-sm font-semibold text-black ">
+                    <Menu.Button className="inline-flex w-full justify-center  bg-white text-sm font-semibold text-black ">
                       <Link href="/contact-us" >
 
                         Contact   </Link>                     <ChevronDownIcon className="-mr-1 h-5 w-5 text-gray-400" aria-hidden="true" />
@@ -391,7 +391,7 @@ const Navbar = ({ currentPage }: any) => {
                 {/*    Blog */}
                 <Menu as="div" className="relative inline-block text-left">
                   <div>
-                    <Menu.Button className="inline-flex w-full justify-center gap-x-1.5    text-sm font-semibold text-black ">
+                    <Menu.Button className="inline-flex w-full justify-center  text-sm font-semibold text-black ">
                       <Link href="/Blog" >
 
                         Blog  </Link>                   <ChevronDownIcon className="-mr-1 h-5 w-5 text-gray-400" aria-hidden="true" />
@@ -605,10 +605,10 @@ const Navbar = ({ currentPage }: any) => {
                 {/*   About Us strt */}
                 <Menu as="div" className="relative inline-block text-left">
                   <div>
-                    <Menu.Button className="inline-flex w-full justify-center gap-x-1.5  text-sm font-semibold text-black ">
+                    <Menu.Button className="inline-flex w-full justify-center  text-sm font-semibold text-black ">
                       <Link href="/about-us" >
 
-                        AboutUs   </Link>                <ChevronDownIcon className="-mr-1 h-5 w-5 text-gray-400" aria-hidden="true" />
+                        AboutUs   </Link>                <ChevronDownIcon className=" h-5 w-5 text-gray-400" aria-hidden="true" />
                     </Menu.Button>
                   </div>
 
