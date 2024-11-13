@@ -19,11 +19,7 @@ const Navbar = ({ currentPage }: any) => {
 
   return (
     <>
-      <div className="bg-[#FFE4D9] text-[#52525B] p-1 md:text-base text-sm flex justify-center items-center  text-center font-sans">
-        Unleash the Power of Integration: Discover Our API Today! 🚀
-      </div>
-
-      <nav className="bg-[#FFFFFF] p-4 ">
+        <nav className="bg-[#FFFFFF] p-4 ">
         <div className="max-w-7xl mx-auto flex justify-between items-center xl:pl-32 lg:pl-24  xl:pr-52 lg:pr-24 md:px-8 sm:4 px-3">
           <div>
             <Link href="/">
