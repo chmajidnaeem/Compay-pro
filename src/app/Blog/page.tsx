@@ -7,7 +7,7 @@ import BlogHero from '../components/BlogHero'
 import Blogpa from '../components/Blogpa'
 import BlogPhoto from '../components/BlogPhoto'
 import CardsBlog from '../components/CardsBlog'
-
+//page
 const page = () => {
   return (
     <div>
