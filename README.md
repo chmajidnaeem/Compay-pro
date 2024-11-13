@@ -1,7 +1,7 @@
 # Getting Started
 
 # Project Overview 
-Welcome to Web Starter Kit working as a SaaS Product, a seamless and scalable SaaS template built with Next.js and Tailwind CSS. Perfectly designed to jumpstart your web app projects with modern, responsive UI components and exceptional performance. Our template provides a clean, professional user interface and optimized workflows, making it easy to customize and deploy.
+Welcome to company pro, a Starter Kit working for companies, a seamless and scalable template built with Next.js and Tailwind CSS. Perfectly designed to jumpstart your web app projects with modern, responsive UI components and exceptional performance. Our template provides a clean, professional user interface and optimized workflows, making it easy to customize and deploy.
 
 Key Features
 Next.js Framework: Experience fast, efficient server-side rendering and optimized static site generation for a blazing-fast application.
@@ -10,16 +10,9 @@ Fully Responsive: Mobile-first design to ensure an outstanding experience across
 Highly Customizable: Easily tweak components and styles to suit your brand and product needs.
 
 ![Project snip 1](pic1.png)
-![Project snip 2](pic2.png)
-![Project snip 2](pic3.png)
-![Project snip 4](pic4.png)
-![Project snip 5](pic5.png)
+
 ## Prerequisites
 - Node.js and yarn/bun installed
-- Accounts and API keys for:
-  - Supabase
-  - Stripe (if using payments)
-  - Clerk (if using authentication)
 
 ## Setup
 
