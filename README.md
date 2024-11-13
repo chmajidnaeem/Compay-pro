@@ -11,7 +11,9 @@ Highly Customizable: Easily tweak components and styles to suit your brand and p
 
 ![Project snip 1](pic1.png)
 
-Figma:
+
+## Figma
+Following is the URl for design in Figma.
 https://www.figma.com/design/Zb5g7OGx20XAUhtHBuaaUO/work
 
 ## Prerequisites
